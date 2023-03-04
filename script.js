@@ -46,4 +46,5 @@ document.querySelector('.again').addEventListener('click', () => {
   document.querySelector('.guess').value = '';
   // Restoring the original background color
   document.querySelector('body').style.backgroundColor = '#222';
+  document.querySelector('.number').style.width = '15rem';
 });
